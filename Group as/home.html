@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pera GYM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel="shortcut icon" type="x-icon" href="sport.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="store.js" async></script>
+</head>
+<body>
+    
+    <header>
+        <div id = "menu-bar" class = "fas fa">
+            <!--<img src="badminton1.jpg" alt="logo">-->
+        </div>
+        <img src="log.jpg" class="sport">
+        <a href="#" class = "logo"><span>Pera</span>GYM</a>
+        <nav class = "navbar">
+            
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <img src="log.jpg" class="sport">
+        </nav>
+        
+        
+
+        <div class = "icons">
+            <i class = "fas-fa-search" id = "search-btn"></i>
+            <i class = "fas-fa-user" id = "login-btn"></i>
+        </div>
+
+        <form action="" class = "search-bar-container">
+            <input type="search" id = "search-bar" placeholder = "Search here...">
+            <label for="search-bar" class = "fas fa-search"></label>
+        </form>
+    </header>
+
+ <!--login form container-->
+
+ <div class = "login-form-container">
+    <i class = "fas fa-times" id = "form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class = "box" placeholder="Enter your Email">
+        <input type="password" class = "box" placeholder="Enter your password">
+        <input type="submit" value = "login now" class = "btn" >
+        <input type="checkbox" id = "remember">
+        <label for="remember">Remember me</label>
+        <p>Forgot password? <a href="#">Click Here</a></p>
+        <p>Don't hava an Account? <a href="#">Register Now</a></p>
+    </form>
+ </div>
+
+<section class = "home" id = "home">
+    <div class="content">
+        <h3>Welcome to the icon of Peradeniya</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Numquam consequuntur non odit, eius ab praesentium asperiores consequatur doloribus quidem nemo soluta quia sint sequi 
+            saepe laudantium esse incidunt voluptate quam?</p>
+            <a href="#" class="btn">More</a>
+    </div>
+
+    <div class = "controls">
+        <span class = 'vid-btn active' data-src = "PARADISE _ Blooming Pera, University of Peradeniya.mp4"></span>
+        <span class = 'vid-btn' data-src = "Blooming Pera (Robarosia spring) __ Faculty Of Medicine __ University Of Peradeniya.mp4"></span>
+        <span class = 'vid-btn' data-src = "PARADISE _ Blooming Pera, University of Peradeniya.mp4"></span>
+        <span class = 'vid-btn' data-src = "y2mate.com - university of peradeniya Gymnasium shorts_360p.mp4"></span>
+    </div>
+
+    <div class = "video-container">
+        <video src="Annoor.mp4" id = "video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+
+<!-- book section starts -->
+
+<section class = "book" id = "book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class = "space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class = "row">
+        <div class = "img">
+            <img src="wp11704351.jpg" alt="imag"> <!--image have to put -->
+        </div>
+
+        <form action="">
+            <div class = "inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+
+            <div class = "inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of contestants">
+            </div>
+
+            <div class = "inputBox">
+                <h3>What date</h3>
+                <input type="date">
+            </div>
+
+            <div class = "inputBox">
+                <h3>Time-From</h3>
+                <input type="time">
+            </div>
+
+            <div class = "inputBox">
+                <h3>Time-To</h3>
+                <input type="time">
+            </div>
+
+            
+            <input type="submit" class="btn" value = "Check Availability">
+        </form>
+    </div>
+</section>
+
+<!-- book section ends -->
+
+
+<!-- Packages selection -->
+
+    <section class = "packages" id = "packages">
+        <h1 class = "heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class = "box">
+                <img src="Workout.jpg" alt="img2">
+                <div class = "content">
+                    <h3><i class = "fas fa-map-maker-alt"></i>workout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores adipisci 
+                        dolore, possimus voluptatum similique quibusdam facilis 
+                        excepturi quo natus corporis rerum maiores sed doloremque debitis 
+                        harum deserunt nam fugit!</p>
+                        <div class = "stars">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <div class = "price"> $90.00 <span>$120.00</span></div>
+                        <a href="#" class = "btn">book now</a>
+                </div>
+            </div>
+
+            <div class = "box">
+                <img src="basket.jpg" alt="img3">
+                <div class = "content">
+                    <h3><i class = "fas fa-map-maker-alt"></i>basketball</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores adipisci 
+                        dolore, possimus voluptatum similique quibusdam facilis 
+                        excepturi quo natus corporis rerum maiores sed doloremque debitis 
+                        harum deserunt nam fugit!</p>
+                        <div class = "stars">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <div class = "price"> $90.00 <span>$120.00</span></div>
+                        <a href="#" class = "btn">book now</a>
+                </div>
+            </div>
+
+            <div class = "box">
+                <img src="Badminton.webp" alt="img4">
+                <div class = "content">
+                    <h3><i class = "fas fa-map-maker-alt"></i> badminton court</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores adipisci 
+                        dolore, possimus voluptatum similique quibusdam facilis 
+                        excepturi quo natus corporis rerum maiores sed doloremque debitis 
+                        harum deserunt nam fugit!</p>
+                        <div class = "stars">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <div class = "price"> $90.00 <span>$120.00</span></div>
+                        <a href="#" class = "btn">book now</a>
+                </div>
+            </div>
+
+            <div class = "box">
+                <img src="Jymnas.jpg" alt="img4">
+                <div class = "content">
+                    <h3><i class = "fas fa-map-maker-alt"></i>Jymnastic</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores adipisci 
+                        dolore, possimus voluptatum similique quibusdam facilis 
+                        excepturi quo natus corporis rerum maiores sed doloremque debitis 
+                        harum deserunt nam fugit!</p>
+                        <div class = "stars">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <div class = "price"> $90.00 <span>$120.00</span></div>
+                        <a href="#" class = "btn">book now</a>
+                </div>
+            </div>
+
+            <div class = "box">
+                <img src="Badminton.webp" alt="img5">
+                <div class = "content">
+                    <h3><i class = "fas fa-map-maker-alt"></i>Badminton court</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores adipisci 
+                        dolore, possimus voluptatum similique quibusdam facilis 
+                        excepturi quo natus corporis rerum maiores sed doloremque debitis 
+                        harum deserunt nam fugit!</p>
+                        <div class = "stars">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <div class = "price"> $90.00 <span>$120.00</span></div>
+                        <a href="#" class = "btn">book now</a>
+                </div>
+            </div>
+
+            <div class = "box">
+                <img src="pool.jpg" alt="img6">
+                <div class = "content">
+                    <h3><i class = "fas fa-map-maker-alt"></i>Swimming pool</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores adipisci 
+                        dolore, possimus voluptatum similique quibusdam facilis 
+                        excepturi quo natus corporis rerum maiores sed doloremque debitis 
+                        harum deserunt nam fugit!</p>
+                        <div class = "stars">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                        </div>
+                        <div class = "price"> $90.00 <span>$120.00</span></div>
+                        <a href="#" class = "btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Packages selection -->
+
+<!-- services section  -->
+
+    <section class="services" id = "services">
+        <h1 class = "heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class = "fas fa-sport"></i>
+                <h3>
+                    affordable prices 
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel tenetur, mollitia laudantium 
+                    eos reiciendis esse consequatur nihil? 
+                    Labore qui, beatae culpa, eveniet sit officiis quod sequi quas veritatis dolorem eius.</p>
+            </div>
+
+            <div class="box">
+                <i class = "fas fa-utensils"></i>
+                <h3>
+                    Great service 
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel tenetur, mollitia laudantium 
+                    eos reiciendis esse consequatur nihil? 
+                    Labore qui, beatae culpa, eveniet sit officiis quod sequi quas veritatis dolorem eius.</p>
+            </div>
+
+            <div class="box">
+                <i class = "fas fa-bullhorn"></i>
+                <h3>
+                    safety guidelines
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel tenetur, mollitia laudantium 
+                    eos reiciendis esse consequatur nihil? 
+                    Labore qui, beatae culpa, eveniet sit officiis quod sequi quas veritatis dolorem eius.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- services section  -->
+
+<!-- gallery section -->
+
+<section class = "gallery" id = "gallery">
+    <h1 class = "heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>    
+
+
+
+<div class="box-container">
+    <div class = "box">
+        <img src="basket.jpg" alt="img7">
+        <div class = "content">
+            <h3>Gymnasium</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+            <a href="#" class = "btn">See More</a>
+        </div>
+    </div>
+
+    <div class = "box">
+        <img src="Workout.jpg" alt="img7">
+        <div class = "content">
+            <h3>Gymnasium</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+            <a href="#" class = "btn">See More</a>
+        </div>
+    </div>
+
+    <div class = "box">
+        <img src="bad.jpg" alt="img7">
+        <div class = "content">
+            <h3>Gymnasium</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+            <a href="#" class = "btn">See More</a>
+        </div>
+    </div>
+    
+    <div class = "box">
+        <img src="Jymnas.jpg" alt="img7">
+        <div class = "content">
+            <h3>Gymnasium</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+            <a href="#" class = "btn">See More</a>
+        </div>
+    </div>
+
+    <div class = "box">
+        <img src="pool.jpg" alt="img7">
+        <div class = "content">
+            <h3>Gymnasium</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+            <a href="#" class = "btn">See More</a>
+        </div>
+       
+    </div>
+    
+    
+</div>
+
+</section>
+<!-- gallery section ends -->
+
+<!-- Review section starts -->
+<section class = "review" id = "review">
+    <h1 class = "heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class = "review-slider">
+        <div class = "wrapper">
+            <div class = "slider">
+                <div class = "box">
+                    <img src="person1.png" alt="img review section">
+                    <h3>Wishva</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <div class = "stars">
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "slider">
+                <div class = "box">
+                    <img src="person2.png" alt="img review section">
+                    <h3>Tajith</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <div class = "stars">
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "slider">
+                <div class = "box">
+                    <img src="person3.png" alt="img review section">
+                    <h3>Wijesooriya</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <div class = "stars">
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- Review section ends -->
+
+<!-- contact section starts -->
+
+<section class = "contact" id = "contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class = "row">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.668858378305!2d80.58841908778577!3d7.259676513861035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae368d371a4a155%3A0xf23ece687420af55!2sUniversity%20Gymnasium.!5e0!3m2!1sen!2slk!4v1686205322844!5m2!1sen!2slk" 
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+        <form action="">
+            <div class = "inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class = "inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+            <input type="submit" class="btn" value = "send message">
+        </form>
+    </div>
+</section>
+<h1 class="heading">
+    <span>M</span>
+    <span>O</span>
+    <span>R</span>
+    <span>E</span>
+    <span></span>
+    <span>D</span>
+    <span>E</span>
+    <span>T</span>
+    <span>A</span>
+    <span>I</span>
+    <span>L</span>
+    <span>S</span>
+</h1>
+<div class="wrapper flex_align_justify">
+    
+    <div class="tc_wrap">
+        
+        <div class="tabs_list">
+          <ul>
+            <li data-tc="tab_item_1" class="active">Terms of use</li>
+            <li data-tc="tab_item_2">Prohibited activities</li>
+            <li data-tc="tab_item_3">Available Times</li>
+
+            
+          </ul>
+        </div>
+        
+        <div class="tabs_content">
+           <div class="tab_head">
+            <!-- <h2>Terms & Conditions</h2>-->
+           </div>
+           <div class="tab_body">
+             <div class="tab_item tab_item_1">
+                 <h3>Terms of use</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p>
+             </div>
+             <div class="tab_item tab_item_2" style="display: none;">
+                 <h3>Prohibited activities</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia odit neque a natus fuga incidunt, facilis, consequatur ducimus vitae consectetur reiciendis tempora explicabo animi quis laborum possimus totam voluptatum illum.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p>
+             </div>
+             <div class="tab_item tab_item_3"  style="display: none;">
+                 <h3>Available Times</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat sit commodi esse enim? Cum tempore deserunt numquam molestias. Pariatur, minima consequatur nam exercitationem explicabo porro quibusdam. Excepturi, voluptatibus repellendus. Provident!</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit praesentium reiciendis aut debitis minima earum fugiat quam aspernatur qui. Labore, aliquam iste. A quasi ut accusantium laboriosam eius sequi?</p>
+             </div>
+             <div class="tab_item tab_item_4"  style="display: none;">
+                 <h3>Termination clause</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae ipsa, enim aspernatur ducimus vero! Repellendus exercitationem dolore, voluptatibus consectetur facere eveniet in, corporis, nostrum animi unde recusandae repudiandae. Excepturi.</p>
+             </div>
+             <div class="tab_item tab_item_5"  style="display: none;">
+                 <h3>Governing law</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias nemo eius aspernatur doloremque laboriosam velit, consequatur nesciunt, ipsum facere autem, dicta quam consectetur! Nostrum quae odit adipisci omnis asperiores!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias nemo eius aspernatur doloremque laboriosam velit, consequatur nesciunt, ipsum facere autem, dicta quam consectetur! Nostrum quae odit adipisci omnis asperiores!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias nemo eius aspernatur doloremque laboriosam velit, consequatur nesciunt, ipsum facere autem, dicta quam consectetur! Nostrum quae odit adipisci omnis asperiores!</p>
+             </div>
+           </div>
+           <div class="tab_foot flex_align_justify">
+             <button class="decline">
+               Decline
+             </button>
+             <button class="agree">
+               Agree
+             </button>
+           </div>
+        </div>
+    </div>
+ </div>
+<!-- contact section ends -->
+<!--
+    cart start
+-->
+<!-- footer section -->
+
+
+<section class="container content-section">
+    
+    <h1 class="heading">
+        <span>A</span>
+        <span>d</span>
+        <span>d</span>
+        <span> </span>
+        <span>T</span>
+        <span>o</span>
+        <span> </span>
+        <span>C</span>
+        <span>a</span>
+        <span>r</span>
+        <span>t</span>
+    </h1>
+    <!--<h2 class="section-header">Add To Cart</h2>-->
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Swimming Pool</span>
+            <img class="shop-item-image" src="pool1.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Badminton court</span>
+            <img class="shop-item-image" src="badminton1.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$14.99</span>
+                <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Basketball court</span>
+            <img class="shop-item-image" src="basket1.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$9.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">WorkOut</span>
+            <img class="shop-item-image" src="workout1.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$19.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+<!--cart end-->
+<!--footer starts-->
+<!--<div class="global">
+    <div class="curve"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-3">
+          <h6>The Logo</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <h6>Services</h6>
+            <ul>
+              <li><a href="#">Email </a> </li>
+              <li><a href="#">Consulting</a> </li>
+              
+            </ul>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <h6>About</h6>
+            <ul>
+              <li><a href="#">Our Story</a> </li>
+              <li><a href="#">Benefits</a> </li>
+              <li><a href="#">Careers</a> </li>
+            </ul>
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+            <h6>Legal</h6>
+            <ul>
+              <li><a href="#">Terms & Conditions</a> </li>
+              <li><a href="#">Privacy Policy</a> </li>
+              <li><a href="#">Terms of use</a> </li>
+            </ul>
+        </div>
+
+        <div class="social">
+          <h6>Follow us</h6>
+          <a href="#"><i class="fa fa-facebook"></i> </a>
+          <a href="#"><i class="fa fa-twitter"></i> </a>
+          <a href="#"><i class="fa fa-snapchat-ghost"></i> </a>
+          <a href="#"><i class="fa fa-instagram"></i> </a>
+          <a href="#"><i class="fa fa-google-plus"></i> </a>
+        </div>
+
+      </div>
+      <p class="copyright"> &copy; Copyright All rights reserved. </p>
+    </div>
+  </div>-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="col1">
+        <a href="#" class="brand">Pera GYM</a>
+        <ul class="media-icons">
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem excepturi ipsam unde obcaecati iusto velit labore consequuntur officiis aut neque?</p>
+        </ul>
+      </div>
+      <div class="col3">
+        <p>Subscribe to our newslatter</p>
+        <form>
+          <div class="input-wrap">
+            <input type="email" placeholder="ex@gmail.com" /><button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </form>
+        <ul class="services-icons">
+          <li>
+            <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-cc-apple-pay"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-google-pay"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-cc-amazon-pay"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="mekk">
+        <p>Dv 2023 - All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
